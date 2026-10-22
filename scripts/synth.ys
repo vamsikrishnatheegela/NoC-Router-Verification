@@ -1,0 +1,5 @@
+read_verilog -sv rtl/noc_router.sv
+hierarchy -top noc_router
+proc; opt; memory; opt; techmap; opt
+stat
+write_json build/noc_router.json
