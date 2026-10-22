@@ -262,10 +262,6 @@ This project demonstrates practical experience with:
 - Makefile automation
 - Git and GitHub project management
 
-## Resume description
-
-> Designed a parameterized five-port Network-on-Chip router in synthesizable SystemVerilog with independent FIFO buffering and destination-based packet forwarding. Developed cocotb directed and randomized verification tests, integrated Verilator linting and Yosys synthesis, and generated a synthesized JSON netlist using an Ubuntu command-line RTL workflow.
-
 ## Author
 
 Vamsi Krishna Theegela  
