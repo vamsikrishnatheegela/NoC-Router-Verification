@@ -1,7 +1,5 @@
 module tb_top;
-  logic clk=0, rst_n=0;
-  logic [31:0] in_data[0:4], out_data[0:4];
-  logic in_valid[0:4], in_ready[0:4], out_valid[0:4], out_ready[0:4];
-  always #5 clk=~clk;
-  noc_router dut(.*);
+ reg clk=0,rst_n=0; reg [159:0] in_data; reg [4:0] in_valid,out_ready; wire [159:0] out_data; wire [4:0] in_ready,out_valid;
+ always #5 clk=~clk;
+ noc_router dut(.*);
 endmodule
